@@ -1,7 +1,7 @@
 
 export default class gComm {
 
-    static API_KEY="AIzaSyDSRVJqyO4kKcD6IesgFBlqSoPCpuyTBtE";
+    static API_KEY="[API_KEY]";
     static API_ADDRESS="https://youtube.googleapis.com/youtube/v3/";
 
     static async requestFrom(page,requestParams={key:this.API_KEY},isPost=false){
